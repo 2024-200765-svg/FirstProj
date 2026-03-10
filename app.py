@@ -113,7 +113,7 @@ faq = st.sidebar.selectbox(
      "Is RTU is a state university?",
      "Is there a uniform?"]
 )
-if faq == " is the entrance exam?":
+if faq == "When is the entrance exam?":
     st.sidebar.info("Entrance exam usually happens from April to May.")
 elif faq == "Is RTU is a state university?":
     st.sidebar.info("Yes, Rizal Technological University (RTU) is a public state university in the Philippines.")
